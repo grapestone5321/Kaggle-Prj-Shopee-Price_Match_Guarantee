@@ -23,7 +23,7 @@ Submissions will be evaluated based on their mean F1 score.
 The mean is calculated in a sample-wise fashion, meaning that an F1 score is calculated for every predicted row, then averaged.
 
 
-### F-score
+### F1 score
 https://en.wikipedia.org/wiki/F-score
 
 -------
