@@ -28,6 +28,26 @@ https://en.wikipedia.org/wiki/F-score
 
 -------
 
+## Image + Text Baseline
+https://www.kaggle.com/cuimdi/image-text-baseline
 
+### origin: [Unsupervised] Image + Text Baseline in 20min
+https://www.kaggle.com/finlay/unsupervised-image-text-baseline-in-20min
 
+- image hash
+
+- image CNN
+
+- title TFIDF
+
+### f1score
+
+      def getMetric(col):
+          def f1score(row):
+              n = len( np.intersect1d(row.target,row[col]) )
+              return 2*n / (len(row.target)+len(row[col]))
+          return f1score
+    
+    
+    
 
