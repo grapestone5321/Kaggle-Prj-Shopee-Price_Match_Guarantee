@@ -48,6 +48,15 @@ https://www.kaggle.com/finlay/unsupervised-image-text-baseline-in-20min
               return 2*n / (len(row.target)+len(row[col]))
           return f1score
     
-    
-    
+-------
+
+## Dataset
+
+- efficientnet-repo-1.1.0
+
+
+-------
+
+
+
 
