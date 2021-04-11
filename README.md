@@ -61,6 +61,48 @@ https://www.kaggle.com/finlay/unsupervised-image-text-baseline-in-20min
 ## B3 + TFIDF + KNN = BOOM :P
 https://www.kaggle.com/muhammad4hmed/b3-tfidf-knn-boom-p
 
+
+      -----
+      
+      # Flag to get cv score
+      GET_CV = True
+
+      # Flag to check ram allocations (debug)
+      CHECK_SUB = False
+
+      df = cudf.read_csv('../input/shopee-product-matching/test.csv')
+      
+      # If we are comitting, replace train set for test set and dont get cv
+      if len(df) > 3:
+          GET_CV = False
+
+
+      # Function to get our f1 score
+      def f1_score(y_true, y_pred):
+
+      # Function to combine predictions
+      def combine_predictions(row):
+
+
+      # Function to read out dataset
+      def read_dataset():
+          if GET_CV:
+
+          else:
+
+      # Function to decode our images
+      def decode_image(image_data):
+      
+      # Function to read our test image and return image
+      def read_image(image):      
+      
+      # Function to get our dataset that read images
+      def get_dataset(image):      
+      
+      
+
+      -----
+
       # Arcmarginproduct class keras layer
       class ArcMarginProduct(tf.keras.layers.Layer):
       
