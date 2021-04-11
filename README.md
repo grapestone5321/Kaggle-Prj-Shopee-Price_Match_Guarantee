@@ -179,6 +179,7 @@ https://www.kaggle.com/muhammad4hmed/b3-tfidf-knn-boom-p
       if len(df) > 3:
           GET_CV = False
 
+### Function
 
       # Function to get our f1 score
       def f1_score(y_true, y_pred):
@@ -225,7 +226,9 @@ https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/blob/master/s
           def call(self, inputs):   
          
       -----
-      
+
+### Function
+
       # Function to get the embeddings of our images with the fine-tuned model
       def get_image_embeddings(image_paths):   
       
@@ -238,6 +241,7 @@ https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/blob/master/s
       # Function to get 50 nearest neighbors of each image and apply a distance threshold to maximize cv
       def get_neighbors(df, embeddings, KNN = 50, image = True):  
       
+      -----
       
       df, df_cu, image_paths = read_dataset()
       image_embeddings = get_image_embeddings(image_paths)
@@ -245,6 +249,7 @@ https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/blob/master/s
       gc.collect()
       
       
+      -----
       
       model = TfidfVectorizer(stop_words=None, binary=True, max_features=25000)
       
@@ -273,7 +278,7 @@ https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/blob/master/s
       else:
 
 
-
+      -----
 
 
 ### Public Score
