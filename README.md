@@ -99,7 +99,14 @@ https://www.kaggle.com/muhammad4hmed/b3-tfidf-knn-boom-p
       # Function to get our dataset that read images
       def get_dataset(image):      
       
-      
+
+- Implements large margin arc distance.
+
+### Reference:
+https://arxiv.org/pdf/1801.07698.pdf
+        
+https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/blob/master/src/modeling/metric_learning.py
+     
 
       -----
 
