@@ -166,12 +166,16 @@ https://www.kaggle.com/muhammad4hmed/b3-tfidf-knn-boom-p
 
 
       -----
-      
+
+### Flag
+
       # Flag to get cv score
       GET_CV = True
 
       # Flag to check ram allocations (debug)
       CHECK_SUB = False
+
+### dataframe
 
       df = cudf.read_csv('../input/shopee-product-matching/test.csv')
       
