@@ -161,7 +161,7 @@ https://www.kaggle.com/finlay/unsupervised-image-text-baseline-in-20min
 -------
 
 
-## B3 + TFIDF + KNN = BOOM :P
+## B3 + TFIDF + KNN = BOOM :P      by Muhammad Ahmed
 https://www.kaggle.com/muhammad4hmed/b3-tfidf-knn-boom-p
 
 
