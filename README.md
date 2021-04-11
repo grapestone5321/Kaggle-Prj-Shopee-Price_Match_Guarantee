@@ -149,6 +149,17 @@ https://www.kaggle.com/finlay/unsupervised-image-text-baseline-in-20min
 
 -------
 
+## Progress
+
+### Public Best LB Score: 0.727
+
+### Private Score:
+
+
+
+
+-------
+
 
 ## B3 + TFIDF + KNN = BOOM :P
 https://www.kaggle.com/muhammad4hmed/b3-tfidf-knn-boom-p
@@ -262,14 +273,16 @@ https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/blob/master/s
       else:
 
 
--------
 
 
-      
-      
-      
-      
-      
+
+### Public Score
+
+       Public Score: 0.727
+
+
+  
+       
       
 -------
 
