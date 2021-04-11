@@ -44,6 +44,64 @@ The file should have a header, be named submission.csv, and look like the follow
 
 You should predict matches for every posting_id. For example, if you believe A matches B and C, A,A B C, you would also include B,B A C and C,C A B.
 
+
+
+
+
+-------
+
+
+## Files
+
+### [train/test].csv
+
+the training set metadata. 
+
+Each row contains the data for a single posting. Multiple postings might have the exact same image ID, but with different titles or vice versa.
+
+- posting_id
+
+the ID code for the posting.
+
+- image
+
+the image id/md5sum.
+
+- image_phash
+
+a perceptual hash of the image.
+
+- title
+
+the product description for the posting.
+
+- label_group
+
+ID code for all postings that map to the same product. Not provided for the test set.
+
+### [train/test]images
+
+the images associated with the postings.
+
+### sample_submission.csv
+
+a sample submission file in the correct format.
+
+- posting_id
+
+the ID code for the posting.
+
+- matches
+
+Space delimited list of all posting IDs that match this posting. 
+
+Posts always self-match. Group sizes were capped at 50, so there's no need to predict more than 50 matches.
+
+
+
+
+
+
 -------
 
 ## Image + Text Baseline
