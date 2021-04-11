@@ -45,7 +45,23 @@ The file should have a header, be named submission.csv, and look like the follow
 You should predict matches for every posting_id. For example, if you believe A matches B and C, A,A B C, you would also include B,B A C and C,C A B.
 
 
+-------
 
+## Data Description
+
+Finding near-duplicates in large datasets is an important problem for many online businesses. 
+
+In Shopee's case, everyday users can upload their own images and write their own product descriptions, adding an extra layer of challenge. 
+
+Your task is to identify which products have been posted repeatedly. 
+
+The differences between related products may be subtle while photos of identical products may be wildly different!
+
+As this is a code competition, only the first few rows/images of the test set are published; the remainder are only available to your notebook when it is submitted. 
+
+Expect to find roughly 70,000 images in the hidden test set. 
+
+The few test rows and images that are provided are intended to illustrate the hidden test set format and folder structure.
 
 
 -------
