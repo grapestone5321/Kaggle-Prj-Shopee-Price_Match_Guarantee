@@ -26,6 +26,24 @@ The mean is calculated in a sample-wise fashion, meaning that an F1 score is cal
 ### F1 score
 https://en.wikipedia.org/wiki/F-score
 
+
+
+-------
+
+## Submission File
+
+You must create a space-delimited list of all posting_ids that match the posting in the posting_id column. 
+
+Posts always self-match. Group sizes were capped at 50, so there is no benefit to predict more than 50 matches.
+
+The file should have a header, be named submission.csv, and look like the following:
+
+      posting_id,matches
+      test_123,test_123
+      test_456,test_456 test_789
+
+You should predict matches for every posting_id. For example, if you believe A matches B and C, A,A B C, you would also include B,B A C and C,C A B.
+
 -------
 
 ## Image + Text Baseline
