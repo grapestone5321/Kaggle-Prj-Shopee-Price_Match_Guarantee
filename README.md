@@ -146,6 +146,26 @@ https://www.kaggle.com/finlay/unsupervised-image-text-baseline-in-20min
 
 - efficientnet-repo-1.1.0
 
+-------
+
+## Papers
+
+### ArcFace: Additive Angular Margin Loss for Deep Face Recognition
+https://arxiv.org/pdf/1801.07698.pdf
+
+
+### SphereFace: Deep Hypersphere Embedding for Face Recognition
+https://arxiv.org/pdf/1704.08063.pdf
+
+
+### CosFace: Large Margin Cosine Loss for Deep Face Recognition
+https://arxiv.org/pdf/1801.09414.pdf
+
+
+### DeepFace: Closing the Gap to Human-Level Performance in Face Verification
+https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf
+
+
 
 -------
 
