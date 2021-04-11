@@ -100,7 +100,7 @@ https://www.kaggle.com/muhammad4hmed/b3-tfidf-knn-boom-p
       def get_dataset(image):      
       
 
-- Implements large margin arc distance.
+### Implements large margin arc distance.
 
 ### Reference:
 https://arxiv.org/pdf/1801.07698.pdf
@@ -112,6 +112,16 @@ https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/blob/master/s
 
       # Arcmarginproduct class keras layer
       class ArcMarginProduct(tf.keras.layers.Layer):
+      
+          def __init__(self, n_classes, s=30, m=0.50, easy_margin=False, ls_eps=0.0, **kwargs):
+          
+          def get_config(self):
+      
+          def build(self, input_shape):
+          
+          def call(self, inputs):   
+         
+      -----
       
       # Function to get the embeddings of our images with the fine-tuned model
       def get_image_embeddings(image_paths):   
