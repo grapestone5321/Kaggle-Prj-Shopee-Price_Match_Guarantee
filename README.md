@@ -58,5 +58,69 @@ https://www.kaggle.com/finlay/unsupervised-image-text-baseline-in-20min
 -------
 
 
+## B3 + TFIDF + KNN = BOOM :P
+https://www.kaggle.com/muhammad4hmed/b3-tfidf-knn-boom-p
+
+      # Arcmarginproduct class keras layer
+      class ArcMarginProduct(tf.keras.layers.Layer):
+      
+      # Function to get the embeddings of our images with the fine-tuned model
+      def get_image_embeddings(image_paths):   
+      
+      # Return tokens, masks and segments from a text array or series 
+      def bert_encode(texts, tokenizer, max_len=512):
+      
+      # Function to get our text title embeddings using a pre-trained bert model
+      def get_text_embeddings(df, max_len = 70):      
+      
+      # Function to get 50 nearest neighbors of each image and apply a distance threshold to maximize cv
+      def get_neighbors(df, embeddings, KNN = 50, image = True):  
+      
+      
+      df, df_cu, image_paths = read_dataset()
+      image_embeddings = get_image_embeddings(image_paths)
+      text_embeddings = get_text_embeddings(df)
+      gc.collect()
+      
+      
+      
+      model = TfidfVectorizer(stop_words=None, binary=True, max_features=25000)
+      
+      
+      preds = []
+      CHUNK = 1024*4
+
+      print('Finding similar titles...')
+      CTS = len(df_cu)//CHUNK
+      if len(df_cu)%CHUNK!=0: CTS += 1
+      for j in range( CTS ):
+      
+      df_cu['oof_text'] = preds
+      
+      
+      # Get neighbors for image_embeddings
+      df, image_predictions = get_neighbors(df, image_embeddings, KNN = 100, image = True)
+      
+      # Get neighbors for text_embeddings
+      df, text_predictions = get_neighbors(df, text_embeddings, KNN = 100, image = False)
+
+
+      # Concatenate image predctions with text predictions
+      if GET_CV:
+      
+      else:
+
+
+-------
+
+
+      
+      
+      
+      
+      
+      
+-------
+
 
 
