@@ -171,7 +171,7 @@ https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf
 
 ## Progress
 
-### Public Best LB Score: 0.727
+### Public Best LB Score: 0.728
 
 ### Private Score:
 
@@ -302,7 +302,6 @@ https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/blob/master/s
       else:
 
 
-      -----
 
 
 ### Public Score
@@ -310,9 +309,18 @@ https://github.com/lyakaap/Landmark2019-1st-and-3rd-Place-Solution/blob/master/s
        Public Score: 0.727
 
 
-  
-       
-      
+-------  
+
+## Eff-B4 + TFIDF >= 0.728
+https://www.kaggle.com/vatsalmavani/eff-b4-tfidf-0-728
+
+
+
+
+
+### Public Score
+
+       Public Score: 0.728   
 -------
 
 
