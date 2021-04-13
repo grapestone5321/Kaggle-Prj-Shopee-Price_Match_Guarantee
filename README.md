@@ -370,6 +370,8 @@ https://www.kaggle.com/vatsalmavani/eff-b4-tfidf-0-728
       text_predictions = get_text_predictions(df, max_features=25_000)
       df, image_predictions = get_image_neighbors(df, image_embeddings, KNN=50 if len(df)>3 else 3)
 
+      -----
+      
 ### Public Score
 
        batch_size = 20:      LB 0.728   ver1   --- best   #default
