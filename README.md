@@ -331,7 +331,7 @@ https://www.kaggle.com/vatsalmavani/eff-b4-tfidf-0-728
           df_cu = cudf.DataFrame(df)
           image_paths = '../input/shopee-product-matching/test_images/' + df['image']
 
-    return df, df_cu, image_paths
+      return df, df_cu, image_paths
 
       def seed_torch(seed=42):
       
