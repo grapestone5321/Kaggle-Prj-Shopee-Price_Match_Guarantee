@@ -316,11 +316,59 @@ https://www.kaggle.com/vatsalmavani/eff-b4-tfidf-0-728
 
 
 
+      -----
 
+### Import Packages
+
+### Config
+
+      class CFG:
+
+### Utils
+
+      def read_dataset():
+
+      def seed_torch(seed=42):
+      
+      def f1_score(y_true, y_pred):
+      
+      def combine_predictions(row):
+
+
+### Image Predictions
+
+      class ArcMarginProduct(nn.Module):
+
+      class ShopeeModel(nn.Module):
+
+      def get_image_neighbors(df, embeddings, KNN=50):
+
+      def get_test_transforms():
+
+      class ShopeeDataset(Dataset):      
+      
+      def get_image_embeddings(image_paths):
+          model = ShopeeModel(pretrained=False).to(CFG.device)
+          
+          image_dataset = ShopeeDataset(image_paths=image_paths, transforms=get_test_transforms())
+
+### Text Predictions 
+
+      def get_text_predictions(df, max_features=25_000):
+
+### Calculating Predictions
+
+      df,df_cu,image_paths = read_dataset()
+
+      # Get neighbors for image_embeddings
+      image_embeddings = get_image_embeddings(image_paths.values)
+      text_predictions = get_text_predictions(df, max_features=25_000)
+      df, image_predictions = get_image_neighbors(df, image_embeddings, KNN=50 if len(df)>3 else 3)
 
 ### Public Score
 
-       Public Score: 0.728   
+       Public Score: 0.728 
+       
 -------
 
 
