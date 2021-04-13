@@ -372,7 +372,8 @@ https://www.kaggle.com/vatsalmavani/eff-b4-tfidf-0-728
 
 ### Public Score
 
-       Public Score: 0.728 
+       batch_size = 20:      LB 0.728   ver1   --- best   #default
+       batch_size = 32:      LB 0.728   ver2
        
 -------
 
