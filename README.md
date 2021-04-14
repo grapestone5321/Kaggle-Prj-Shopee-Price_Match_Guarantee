@@ -374,10 +374,11 @@ https://www.kaggle.com/vatsalmavani/eff-b4-tfidf-0-728
       
 ### class CFG:
 
-       batch_size = 8:       LB    ver
-       batch_size = 16:      LB    ver4
+       batch_size = 8:       LB 0.728   ver5
+       batch_size = 16:      LB 0.728   ver4
        batch_size = 20:      LB 0.728   ver1   --- best   #default
        batch_size = 32:      LB 0.728   ver3
+       batch_size = 64:      LB    ver7
        
 -------
 
