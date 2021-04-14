@@ -380,6 +380,17 @@ https://www.kaggle.com/vatsalmavani/eff-b4-tfidf-0-728
        batch_size = 32:      LB 0.728   ver3
        batch_size = 64:      LB error   ver7
        
+
+### df, image_predictions = get_image_neighbors(df, image_embeddings,
+
+batch_size = 20:  
+
+      KNN=50 if len(df)>3 else 3              LB 0.728   ver1   --- best   #default
+      KNN=100 if len(df)>3 else 3             LB    ver8 
+
+
+
+
 -------
 
 
