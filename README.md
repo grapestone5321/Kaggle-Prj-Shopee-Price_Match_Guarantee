@@ -393,5 +393,9 @@ batch_size = 20:
 
 -------
 
+## Eff-B4 + TFIDF w/ CV for threshold_searching
+https://www.kaggle.com/chienhsianghung/eff-b4-tfidf-w-cv-for-threshold-searching
+
+      KNN=100 if len(df)>3 else 3             LB *****   ver1   --- best   394 -> ***
 
 
