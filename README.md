@@ -399,3 +399,17 @@ https://www.kaggle.com/chienhsianghung/eff-b4-tfidf-w-cv-for-threshold-searching
       Public Score              LB 0.728   ver1      394 -> 396
 
 
+-------
+
+## TF-IDF + Rapids + Arc Margin Shopee
+https://www.kaggle.com/prashantchandel1097/ensemble-of-multiple-models-lb0-733
+
+###image_predictions1
+
+      threshold = 0.3              LB 0.733   ver1      --- best    -- default
+      threshold = 0.35             LB    ver2     
+
+
+
+-------
+
