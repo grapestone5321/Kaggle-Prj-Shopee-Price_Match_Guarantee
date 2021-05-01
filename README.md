@@ -406,10 +406,9 @@ https://www.kaggle.com/prashantchandel1097/ensemble-of-multiple-models-lb0-733
 
 ###image_predictions1
 
-      threshold = 0.3              LB 0.733   ver1      --- best    -- default
-      threshold = 0.35             LB    ver2     
-
-
+      threshold = 0.25             LB 0.732    ver3 
+      threshold = 0.3              LB 0.733    ver1      --- best    -- default
+      threshold = 0.35             LB 0.732    ver2     
 
 -------
 
