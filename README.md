@@ -410,5 +410,14 @@ https://www.kaggle.com/prashantchandel1097/ensemble-of-multiple-models-lb0-733
       threshold = 0.3              LB 0.733    ver1      --- best    -- default
       threshold = 0.35             LB 0.732    ver2     
 
+
+### Configuration
+
+threshold = 0.3:
+
+      BATCH_SIZE = 8               LB 0.733    ver1 
+      BATCH_SIZE = 16              LB 0.733    ver5 
+
+
 -------
 
