@@ -422,7 +422,10 @@ threshold = 0.3:
       BATCH_SIZE = 32              LB error    ver7 
       
 
-      
+### df, image_predictions = get_neighbors()
+
+      KNN = 25               LB 0.733    ver1      --- best    -- default
+      KNN = 50               LB 0.733    ver10      
 
 -------
 
