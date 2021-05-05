@@ -426,8 +426,9 @@ threshold = 0.3:
 
       threshold = 0.25             LB 0.732    ver3 
       threshold = 0.3              LB 0.733    ver1                    --- default
+      threshold = 0.31             LB     ver13      222 -> 
       threshold = 0.32             LB 0.733    ver11      453 -> 220    --- best
-      threshold = 0.33             LB    ver12             -> 
+      threshold = 0.33             LB 0.733    ver12      220 -> 222
       threshold = 0.35             LB 0.732    ver2  
 
 -------
