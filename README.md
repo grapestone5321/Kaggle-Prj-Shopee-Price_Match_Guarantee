@@ -404,13 +404,6 @@ https://www.kaggle.com/chienhsianghung/eff-b4-tfidf-w-cv-for-threshold-searching
 ## TF-IDF + Rapids + Arc Margin Shopee
 https://www.kaggle.com/prashantchandel1097/ensemble-of-multiple-models-lb0-733
 
-###image_predictions1
-
-      threshold = 0.25             LB 0.732    ver3 
-      threshold = 0.3              LB 0.733    ver1      --- best    -- default
-      threshold = 0.35             LB 0.732    ver2     
-
-
 ### Configuration
 
 threshold = 0.3:
@@ -424,8 +417,18 @@ threshold = 0.3:
 
 ### df, image_predictions = get_neighbors()
 
+threshold = 0.3:
+
       KNN = 25               LB 0.733    ver1      --- best    -- default
       KNN = 50               LB 0.733    ver10      
+
+### image_predictions1
+
+      threshold = 0.25             LB 0.732    ver3 
+      threshold = 0.3              LB 0.733    ver1                    --- default
+      threshold = 0.32             LB 0.733    ver11      453 -> 220    --- best
+      threshold = 0.33             LB    ver12             -> 
+      threshold = 0.35             LB 0.732    ver2  
 
 -------
 
