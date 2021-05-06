@@ -436,7 +436,8 @@ threshold = 0.3:
 threshold = 0.32:
 
       self.dropout = nn.Dropout(p=0.0)             LB 0.733    ver11     --- best
-      self.dropout = nn.Dropout(p=0.5)             LB    ver16    
+      self.dropout = nn.Dropout(p=0.5)             LB 0.733    ver16         234 -> 235
+      self.dropout = nn.Dropout(p=1.0)             LB 0.733    ver17         235 -> 235
       
 -------
 
