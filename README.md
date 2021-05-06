@@ -429,7 +429,7 @@ threshold = 0.3:
       threshold = 0.31             LB 0.733    ver13      222 -> 222
       threshold = 0.315            LB 0.733    ver14      229 -> 233
       threshold = 0.32             LB 0.733    ver11      453 -> 220    --- best
-      threshold = 0.325            LB     ver15      233 -> 
+      threshold = 0.325            LB 0.733    ver15      234 -> 234
       threshold = 0.33             LB 0.733    ver12      220 -> 222
       threshold = 0.35             LB 0.732    ver2  
 
