@@ -439,6 +439,18 @@ threshold = 0.32:
       self.dropout = nn.Dropout(p=0.2)             LB 0.733    ver18         235 -> 235
       self.dropout = nn.Dropout(p=0.5)             LB 0.733    ver16         234 -> 235
       self.dropout = nn.Dropout(p=1.0)             LB 0.733    ver17         235 -> 235
-      
+
+self.dropout = nn.Dropout(p=0.0):
+
+        #IDX = np.where(cts[k,]>0.7)[0]
+        
+        IDX = cupy.where(cts[k,]>0.70)[0]     LB     ver19
+        IDX = cupy.where(cts[k,]>0.75)[0]     LB 0.733    ver11       --- best   --- default
+        IDX = cupy.where(cts[k,]>0.77)[0]     LB     ver20
+        
+        
+        
+        
+        
 -------
 
