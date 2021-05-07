@@ -444,9 +444,10 @@ self.dropout = nn.Dropout(p=0.0):
 
         #IDX = np.where(cts[k,]>0.7)[0]
         
-        IDX = cupy.where(cts[k,]>0.70)[0]     LB     ver19
+        IDX = cupy.where(cts[k,]>0.70)[0]     LB 0.731    ver19
+        IDX = cupy.where(cts[k,]>0.73)[0]     LB     ver21
         IDX = cupy.where(cts[k,]>0.75)[0]     LB 0.733    ver11       --- best   --- default
-        IDX = cupy.where(cts[k,]>0.77)[0]     LB     ver20
+        IDX = cupy.where(cts[k,]>0.77)[0]     LB 0.733    ver20      245 -> 247
         
         
         
