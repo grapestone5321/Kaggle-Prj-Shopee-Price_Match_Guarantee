@@ -453,15 +453,17 @@ self.dropout = nn.Dropout(p=0.0):
         
 ### def get_test_transforms(): 
 
-      #ToTensorV2(p=1.0)     LB error    ver24      234 ->
-      ToTensorV2(p=0.0)      LB     ver27     -> 
-      ToTensorV2(p=0.5)      LB     ver26      236 -> 238
+      #ToTensorV2(p=1.0)     LB error    ver24      
+      ToTensorV2(p=0.0)      LB 0.733    ver27      238 -> 242
+      ToTensorV2(p=0.5)      LB 0.733    ver26      236 -> 238
       ToTensorV2(p=0.9)      LB 0.733    ver25      236 -> 238
       ToTensorV2(p=1.0)      LB 0.733    ver23    --- best       --- default
 
 
 
-### class CFG:        
+### class CFG: 
+
+ToTensorV2(p=1.0):
 
       batch_size =  8   LB     ver     -> 
       batch_size = 12   LB 0.733    ver23         --- best         --- default
