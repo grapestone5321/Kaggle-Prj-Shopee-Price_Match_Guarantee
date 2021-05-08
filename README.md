@@ -451,9 +451,20 @@ self.dropout = nn.Dropout(p=0.0):
         IDX = cupy.where(cts[k,]>0.76)[0]     LB 0.733    ver23      249 -> 226       --- best   
         IDX = cupy.where(cts[k,]>0.77)[0]     LB 0.733    ver20      245 -> 247
         
-        
-        
-        
-        
+### def get_test_transforms(): 
+
+      #ToTensorV2(p=1.0)      LB     ver24      234 -> 
+      ToTensorV2(p=1.0)      LB 0.733    ver23    --- best       --- default
+
+
+
+### class CFG:        
+
+      batch_size =  8   LB     ver     -> 
+      batch_size = 12   LB 0.733    ver23         --- best         --- default
+      batch_size = 16   LB    ver       -> 
+      
+      
+      
 -------
 
