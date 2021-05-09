@@ -465,9 +465,9 @@ self.dropout = nn.Dropout(p=0.0):
 
 ToTensorV2(p=1.0):
 
-      batch_size =  8   LB     verw28     -> 
+      batch_size =  8   LB 0.733    ver28    244 -> 266
       batch_size = 12   LB 0.733    ver23         --- best         --- default
-      batch_size = 16   LB    ver       -> 
+      batch_size = 16   LB    ver29       -> 
       
       
       
