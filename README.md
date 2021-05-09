@@ -470,7 +470,7 @@ ToTensorV2(p=1.0):
       batch_size = 16   LB 0.733    ver29    246 -> 246
       batch_size = 24   LB 0.733    ver30    246 -> 249
       
-      margin = 0.3    LB     ver32      ->
+      margin = 0.3    LB 0.733    ver32     250 -> 253
       margin = 0.5    LB 0.733    ver23         --- best         --- default
       margin = 0.7    LB 0.733    ver31      250 -> 250
       
