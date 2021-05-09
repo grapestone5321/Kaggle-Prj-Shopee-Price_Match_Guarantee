@@ -468,7 +468,7 @@ ToTensorV2(p=1.0):
       batch_size =  8   LB 0.733    ver28    244 -> 246
       batch_size = 12   LB 0.733    ver23         --- best         --- default
       batch_size = 16   LB 0.733    ver29    246 -> 246
-      batch_size = 24   LB     ver30     -> 
+      batch_size = 24   LB 0.733    ver30    246 -> 249
       
       
       
