@@ -473,6 +473,11 @@ ToTensorV2(p=1.0):
       margin = 0.3    LB 0.733    ver32     250 -> 253
       margin = 0.5    LB 0.733    ver23         --- best         --- default
       margin = 0.7    LB 0.733    ver31      250 -> 250
-      
+
+      scale = 20      LB 0.733    ver34 
+      scale = 30      LB 0.733    ver23         --- best         --- default
+      scale = 40      LB 0.733    ver33 
+
+
 -------
 
