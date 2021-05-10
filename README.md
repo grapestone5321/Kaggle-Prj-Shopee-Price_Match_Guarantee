@@ -479,5 +479,12 @@ ToTensorV2(p=1.0):
       scale = 40      LB 0.733    ver33 
 
 
+### def get_neighbors
+
+      KNN = 50     LB 0.733    ver23         --- best         --- default
+      KNN = 25     LB   ver36 
+
+
+
 -------
 
