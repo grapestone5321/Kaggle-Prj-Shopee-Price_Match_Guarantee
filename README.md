@@ -171,9 +171,9 @@ https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf
 
 ## Progress
 
-### Public Best LB Score: 0.728
+### Public Best LB Score: 0.733
 
-### Private Score:
+### Private Score: 0.722
 
 
 
@@ -482,7 +482,7 @@ ToTensorV2(p=1.0):
 ### def get_neighbors
 
       KNN = 50     LB 0.733    ver23         --- best         --- default
-      KNN = 25     LB   ver36 
+      KNN = 25     LB 0.733　  ver36 
 
 
 
